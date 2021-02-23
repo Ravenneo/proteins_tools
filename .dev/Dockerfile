@@ -37,7 +37,9 @@ COPY --from=builder /build/muscle/muscle /usr/local/bin/muscle
 
 RUN set -ex; \
   apt-get update && apt-get install -y \
-    python3 python3-pip; \
+    python3 python3-pip \
+    rename \
+    gnumeric; \
   apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN set -ex; \
