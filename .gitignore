@@ -1,3 +1,5 @@
 /DUF/output/
 /DUF/input/
 *.pdf
+
+__pycache__/
