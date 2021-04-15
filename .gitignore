@@ -1,0 +1,10 @@
+/DUF/output/
+/DUF/input/
+*.pdf
+
+__pycache__/
+.pytest_cache/
+
+# testing files
+Trimming/tests/resources/Model_fdnh.txt
+Trimming/tests/resources/output.txt
