@@ -1,0 +1,33 @@
+>WP_115784725.1 formate dehydrogenase N subunit beta [Escherichia coli]
+
+>WP_015367482.1 dimethylsulfoxide reductase subunit B [Klebsiella aerogenes]
+KPNANSRPCGDTTGYLANPKEV
+
+>WP_139688050.1 MULTISPECIES: 4Fe-4S dicluster domain-containing protein [Sutterella]
+GTKPKIRYIATHMDVESYELKL
+
+>WP_059355881.1 dimethylsulfoxide reductase subunit B [Klebsiella aerogenes]
+KPNANSRPCGDTTGYLANPQEV
+
+IFHYIGIGPNKEVDDDEEDHHE
+
+>NP_707615.1 formate dehydrogenase-N iron-sulfur subunit beta [Shigella flexneri 2a str. 301]
+IFHYIGIGPNKEVDDDEEDHHE
+
+>WP_001240582.1 MULTISPECIES: formate dehydrogenase N subunit beta [Enterobacteriaceae]
+IFHYIGIGPNKEVDDDEEDHHEASDKLDSA
+
+>WP_142688894.1 dimethylsulfoxide reductase subunit B [Klebsiella aerogenes]
+KPNANSRPCGDSTGYLANPKEV
+
+>WP_001240565.1 MULTISPECIES: formate dehydrogenase N subunit beta [Escherichia]
+IFHYIGIGPNKEVDDDEEDHHE
+
+>WP_088172395.1 formate dehydrogenase N subunit beta [Escherichia coli]
+IFHYIGIGPNKEVDDDEEDHHE
+
+>WP_104951169.1 formate dehydrogenase N subunit beta [Escherichia coli]
+IFHYIGIGPNKEVDDDEEDHHE
+
+>NP_310106.1 formate dehydrogenase subunit beta [Escherichia coli O157:H7 str. Sakai]
+IFHYIGIGPNKEVDDDEEDHHE
