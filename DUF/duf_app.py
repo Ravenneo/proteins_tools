@@ -3,21 +3,24 @@
 
 from duf_extraction.csv_convert import CSVConvert
 from duf_extraction.duf_processing import Processing
-from os import listdir
 import argparse
 import multiprocessing
+import os
 
 def run_muscle(output_folder, email, input_file):
     processing_protein = Processing(input_file, output_folder, email)
     processing_protein.muscle_protein()
 
 def execute_duf_processing(input_folder, output_folder, email):
+    if not os.path.isdir(output_folder):
+        os.mkdir(output_folder)
+
     convert = CSVConvert(input_folder)
     convert.execute()
 
     pool = multiprocessing.Pool()
     csv_folder = input_folder + "/csv/"
-    for file in listdir(csv_folder):
+    for file in os.listdir(csv_folder):
         csv_file_path = csv_folder + file
         pool.apply_async(run_muscle, args=(output_folder, email, csv_file_path,))
     pool.close()
