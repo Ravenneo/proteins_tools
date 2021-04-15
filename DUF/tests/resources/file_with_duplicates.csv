@@ -1,0 +1,20 @@
+ID,Source,"Nucleotide Accession",Protein,"Protein Name",Start,Stop,Strand,Organism," Strain",Assembly
+20889923,RefSeq,NC_015957.1,WP_014055290.1,"S8 family serine peptidase",1981798,1983054,+,"Streptomyces violaceusniger Tu 4113","Tu 4113",GCF_000147815.2
+59444549,RefSeq,NZ_JOAZ01000029.1,WP_030630441.1,"S8 family serine peptidase",17630,18892,-,"Streptomyces halstedii","NRRL ISP-5068",GCF_000720535.1
+59888247,RefSeq,NZ_KL591009.1,WP_031074839.1,"S8 family serine peptidase",165011,166306,+,"Streptomyces sp. NRRL S-118","NRRL S-118",GCF_000716335.1
+65604084,RefSeq,NZ_JNXG01000016.1,WP_033304178.1,"S8 family serine peptidase",155879,157132,+,"Streptomyces atroolivaceus","NRRL ISP-5137",GCF_000717025.1
+136637073,RefSeq,NZ_ASQP01000071.1,WP_076970707.1,"S8 family serine peptidase",31234,32475,-,"Streptomyces sparsogenes DSM 40356","DSM 40356",GCF_001969965.1
+,,,EMP10873.2,"peptidase S8",,,"Gordonia sp. NB4-1Y",NB4-1Y,GCA_000347295.2,
+66137867,RefSeq,NZ_CP041153.1,WP_033540164.1,"S8 family serine peptidase",3308702,3312280,+,"Shewanella marisflavi",ECSMB14101,GCF_006494755.1
+69498080,RefSeq,NZ_AYME01000004.1,WP_036292654.1,"S8 family serine peptidase",228294,229613,+,"Microbacterium paraoxydans DH1b",DH1b,GCF_000633215.1
+69498080,RefSeq,NZ_AYME01000004.1,WP_036292654.1,"S8 family serine peptidase",228294,229613,+,"Microbacterium paraoxydans DH1b",DH1b,GCF_000633215.1
+71418857,RefSeq,NZ_JWSZ01000001.1,WP_039412518.1,"S8 family serine peptidase",493296,494660,+,"Microbacterium hominis",TPW29,GCF_000813805.1
+77920360,RefSeq,NZ_CP011005.1,WP_052663444.1,"S8 family serine peptidase",85223,86542,+,"Psychromicrobium lacuslunae","IHBB 11108",GCF_000950575.1
+103658476,RefSeq,NZ_CP027434.1,WP_060921984.1,"S8 family serine peptidase",1117312,1118631,+,"Microbacterium sp. str. 'China'",China,GCF_002993305.1
+,,,EMP10873.2,"peptidase S8",,,"Gordonia sp. NB4-1Y",NB4-1Y,GCA_000347295.2,
+105998728,RefSeq,NZ_LOSO01000004.1,WP_062633540.1,"S8 family serine peptidase",65842,67161,+,"Microbacterium sp. CH1",CH1,GCF_001595495.1
+128041984,RefSeq,NZ_MODW01000002.1,WP_071328144.1,"S8 family serine peptidase",61621,62937,+,"Microbacterium sp. LCT-H2",LCT-H2,GCF_001866135.1
+130963919,RefSeq,NZ_FQZK01000047.1,WP_073384391.1,"S8 family serine peptidase",4232,5515,-,"Nocardiopsis flavescens","CGMCC 4.5723",GCF_900141985.1
+130963919,RefSeq,NZ_FQZK01000047.1,WP_073384391.1,"S8 family serine peptidase",4232,5515,-,"Nocardiopsis flavescens","CGMCC 4.5723",GCF_900141985.1
+59888247,RefSeq,NZ_KL591009.1,WP_031074839.1,"S8 family serine peptidase",165011,166306,+,"Streptomyces sp. NRRL S-118","NRRL S-118",GCF_000716335.1
+20889923,RefSeq,NC_015957.1,WP_014055290.1,"S8 family serine peptidase",1981798,1983054,+,"Streptomyces violaceusniger Tu 4113","Tu 4113",GCF_000147815.2

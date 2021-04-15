@@ -42,8 +42,12 @@ RUN set -ex; \
     gnumeric; \
   apt-get clean && rm -rf /var/lib/apt/lists/*
 
+WORKDIR /build
+COPY ./requirements.txt /build
+
 RUN set -ex; \
-  pip3 install bio;
+  python3 -m pip install -r /build/requirements.txt; \
+  rm -rf /build
 
 # Create user develop and give permissions
 RUN set -ex; \

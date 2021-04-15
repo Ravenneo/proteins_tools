@@ -7,7 +7,7 @@ import os
 import shutil
 import subprocess
 
-class CSVConvertion:
+class CSVConvert:
     """Class to convert files from xlsx to csv"""
     input_folder = None
 
@@ -27,7 +27,7 @@ class CSVConvertion:
                 os.mkdir(csv_folder)
             shutil.move(csv_file_path, csv_folder / csv_file)
 
-    def convertion(self):
+    def execute(self):
         """Run convertion process"""
         # Change spaces for underscores in multiples files
         subprocess.run("rename 's/ /_/g' " + str(self.input_folder) + "/*", shell=True, check=True)
