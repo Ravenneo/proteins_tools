@@ -19,7 +19,7 @@
 ** LPXTG_buscador_Printer2.py:**
     This script reads a .txt file containing protein sequences in FASTA format and searches for both canonical and non-canonical LPxTG motifs in each protein sequence. It then generates a .txt file on the desktop containing the WP number, protein name, organism, and positions of the canonical and non-canonical LPxTG motifs found in the sequences.
 
-###New scripts for Non-canonical motifs
+### New scripts for Non-canonical motifs
 
 **NonCanLPXTG.py**
 
