@@ -28,4 +28,6 @@ Process:
 ``hhfilter -i File3.a3m -o filtered_File3.a3m -id 90 -cov 50 -M first``
 
 8)Upload the filtered file to Robetta as MSA
+
+
 ![image](https://user-images.githubusercontent.com/41577767/235379725-a778ba62-69d1-40ff-b9ea-d861da29984a.png)
