@@ -1,5 +1,8 @@
 ##NOT WORKING##
 
+<img src="https://github.com/Ravenneo/proteins_tools/assets/41577767/b50ee419-ff74-4d4b-a175-f18c03a6aff1" alt="alt text" width="560" height="560">
+
+
 This script is designed to convert a protein sequence alignment file in FASTA format to A3M format*
 
 This script was written to use with roseTTAFold MSA  https://robetta.bakerlab.org/submit.php
