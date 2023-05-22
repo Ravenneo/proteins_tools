@@ -1,8 +1,8 @@
- ##NOT WORKING
+##NOT WORKING##
 
-##This script is designed to convert a protein sequence alignment file in FASTA format to A3M format*
+This script is designed to convert a protein sequence alignment file in FASTA format to A3M format*
 
-###This script was written to use with roseTTAFold MSA  https://robetta.bakerlab.org/submit.php
+This script was written to use with roseTTAFold MSA  https://robetta.bakerlab.org/submit.php
 
 Process:
 
