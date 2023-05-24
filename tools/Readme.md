@@ -1,38 +1,24 @@
-##NOT WORKING##
 
 <img src="https://github.com/Ravenneo/proteins_tools/assets/41577767/b50ee419-ff74-4d4b-a175-f18c03a6aff1" alt="alt text" width="560" height="560">
 
+## Acro_extractor: script designed to extract acronyms and their full forms from a Microsoft Word (.docx) document.
 
-This script is designed to convert a protein sequence alignment file in FASTA format to A3M format*
+    1) The script starts by importing necessary Python libraries. This includes docx for reading the Word document, pandas for creating a DataFrame (a table-like data structure), and re for regular expressions, which are used to identify patterns in text.
 
-This script was written to use with roseTTAFold MSA  https://robetta.bakerlab.org/submit.php
+    2) It prompts the user to input the name of the Word document from which they want to extract acronyms.
 
-Process:
+    3) It reads the Word document using the Document function from the docx library.
 
-1) **Go to UniProt**
+    4) The script then goes through each paragraph in the document. It uses a regular expression to identify potential acronyms (two or more consecutive capital letters) and their full forms (either preceding or following the acronym, enclosed in parentheses).
 
-2) **Blast for your two proteins**
-![image](https://user-images.githubusercontent.com/41577767/235379387-4e14c1d1-0062-4e04-b242-9292f9c690bf.png)
+    5) It adds all identified acronyms and their full forms to a list.
 
-3) **Downlad in fasta format both files.**
+    6) Once it has gone through the entire document, it filters out any duplicates from the list.
 
-4) **Combine both files:**
+    7) It then converts this list into a DataFrame using the pandas library.
 
-``cat File1.fasta File2.fasta > combined.fasta~``
+    8) Lastly, it saves this DataFrame as a .csv file, which can be easily opened and viewed in a spreadsheet program like Excel.
 
-5) **Align the sequences**
- 
- ``clustalo -i combined.fasta -o aligned.fasta --force``
- 
-6) **Use the python script to change the format**
- 
- ``python3 fasta_to_a3m.py aligned.fasta File3.a3m``
- 
-7) **Filter the file**
+## fasta_to_a3:
+This script is designed to convert a protein sequence alignment file in FASTA format to A3M format
 
-``hhfilter -i File3.a3m -o filtered_File3.a3m -id 90 -cov 50 -M first``
-
-8) Upload the filtered file to Robetta as MSA
-
-
-![image](https://user-images.githubusercontent.com/41577767/235379725-a778ba62-69d1-40ff-b9ea-d861da29984a.png)
