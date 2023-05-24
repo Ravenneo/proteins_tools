@@ -21,7 +21,8 @@
 
     7 It then converts this list into a DataFrame using the pandas library.
 
-    8 Lastly, it saves this DataFrame as a .csv file, which can be easily opened and viewed in a spreadsheet program like Excel.
+    8 Lastly, it saves this DataFrame as a .csv file, which can be easily opened and viewed in a 
+    spreadsheet program like Excel.
 
 ## fasta_to_a3:
 This script is designed to convert a protein sequence alignment file in FASTA format to A3M format
