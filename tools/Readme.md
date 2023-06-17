@@ -27,3 +27,21 @@
 ## fasta_to_a3:
 This script is designed to convert a protein sequence alignment file in FASTA format to A3M format
 
+## checkDuplicates.py:
+        Description: The checkDuplicates.py script is a Python script that checks for duplicates in a given CSV file.
+        It uses the pandas library to load the CSV data into a DataFrame and then identifies and         
+        displays any duplicated rows in the DataFrame. This script can help identify and analyze duplicate entries in the data.
+        Usage: To use the script, you need to provide the name of the CSV file you want to check for duplicates. 
+        After running the script, it will display the duplicated rows found in the CSV file.
+        
+## CompareDuplicates.py:
+        Description: The CompareDuplicates.py script is a Python script that compares two CSV files to determine 
+        if the discrepancy between them is due to duplicate entries or another issue. It uses the              
+        pandas library to load the two CSV files into DataFrames. It checks if the DataFrames are identical 
+        and then compares the number of unique entries in one DataFrame with the total number of entries in      
+        the other DataFrame. Based on this comparison, it determines whether the discrepancy is due to duplicate 
+        entries or another cause.
+        Usage: To use the script, you need to provide the names of the two CSV files you want to compare. 
+        After running the script, it will output whether the two DataFrames are identical, the number of    
+        unique entries in one DataFrame, the total number of entries in the other DataFrame, and whether
+        the discrepancy is due to duplicate entries or another issue.
